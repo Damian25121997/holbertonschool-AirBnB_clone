@@ -5,6 +5,9 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .container .filters button {
@@ -15,8 +18,5 @@
     width: 20%;
     border: none;
     border-radius: 4px;
-    position: relative;
-    top: 15%;
-    left: 77%;
-    opacity: 90%;
+    margin: 30px;
 }
